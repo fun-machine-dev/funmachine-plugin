@@ -1,0 +1,15 @@
+{
+  "name": "funmachine",
+  "description": "Fun Machine plugins for coding agents",
+  "owner": {
+    "name": "Fun Machine",
+    "url": "https://funmachine.xyz"
+  },
+  "plugins": [
+    {
+      "name": "funmachine",
+      "source": "./plugins/funmachine",
+      "description": "Fun Machine API docs for your coding agent"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "funmachine",
+  "displayName": "Fun Machine",
+  "version": "1.0.0",
+  "description": "Lets your coding agent read the Fun Machine Rips and Game Provider API docs while it builds your integration",
+  "author": { "name": "Fun Machine", "url": "https://funmachine.xyz" },
+  "homepage": "https://funmachine.xyz/docs/ai-agents",
+  "repository": "https://github.com/fun-machine-dev/funmachine-plugin",
+  "keywords": ["funmachine", "rips", "api", "docs"],
+  "userConfig": {
+    "docs_key": {
+      "type": "string",
+      "title": "Docs key",
+      "description": "Create one at https://funmachine.xyz/docs/ai-agents",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "funmachine": {
+      "type": "http",
+      "url": "https://funmachine.xyz/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.docs_key}" }
+    }
+  }
+}
