@@ -4,7 +4,7 @@
   "description": "Lets your coding agent read the Fun Machine Rips and Game Provider API docs while it builds your integration",
   "author": { "name": "Fun Machine", "url": "https://funmachine.xyz" },
   "homepage": "https://funmachine.xyz/docs/ai-agents",
-  "repository": "https://github.com/fun-machine/funmachine-plugin",
+  "repository": "https://github.com/fun-machine-dev/funmachine-plugin",
   "skills": "./skills",
   "mcpServers": {
     "funmachine": {

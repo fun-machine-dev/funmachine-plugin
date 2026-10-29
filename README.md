@@ -7,7 +7,7 @@ First, create a docs key at https://funmachine.xyz/docs/ai-agents.
 ## Claude Code
 
 ```
-/plugin marketplace add fun-machine/funmachine-plugin
+/plugin marketplace add fun-machine-dev/funmachine-plugin
 /plugin install funmachine@funmachine
 ```
 
@@ -17,7 +17,7 @@ Claude Code asks for the docs key on install and keeps it in your system keychai
 
 ```
 export FUNMACHINE_DOCS_KEY=<your docs key>
-codex plugin marketplace add fun-machine/funmachine-plugin
+codex plugin marketplace add fun-machine-dev/funmachine-plugin
 codex plugin add funmachine@funmachine
 ```
 
